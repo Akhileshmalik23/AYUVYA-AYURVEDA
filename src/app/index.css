@@ -1,0 +1,57 @@
+.starContainer{
+    display: flex;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 200%;
+    margin: 0 5px;
+    transition: color 1.0s;
+}
+
+.star:hover {
+    scale: 1.2;
+}
+
+.selected{
+    color:gold;
+}
+
+.likeConatainer{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.like_btn{
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.selected_btn_like{
+    color: green;
+}
+
+.selected_btn_dislike{
+    color: red;
+}
+
+.division{
+    margin: 20px;
+}
+
+.heading{
+    font-size:20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.outerDiv {
+    width: 400px;
+    margin: auto;
+    border: 2px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: #f9f9f9;
+}
